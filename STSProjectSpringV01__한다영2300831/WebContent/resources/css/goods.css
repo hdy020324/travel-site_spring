@@ -1,0 +1,314 @@
+/*
+211, 100%, 74%
+004175
+005499
+0089fa
+2ea1ff
+7abaff
+e0f1ff
+f0f8ff
+f5faff
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Noto+Sans+KR:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+#wrap {
+	margin:auto;
+	width:1350px;
+	font-family: 'Noto Sans KR', sans-serif;	
+}
+
+a {
+	text-decoration: none;
+	color:black;	
+}
+
+/*============================*/
+
+header hr {
+	border:2px solid transparent;
+}
+
+#topMenu {
+	height: 70px;
+}
+
+#topMenu .icon {
+	float:left;
+	margin:5px 0 0 30px;
+	height: 60px;
+}
+
+#topMenu p {
+	float:left;
+	display:inline-block;
+	margin:16px 0 0 20px ;
+	height: 70px;
+	font-size:45px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+/*---------------------------------------*/
+
+#search {
+	float:left;
+	margin: 16px 0 0 50px ;
+	height:60px;
+}
+
+#search table, td {
+	width: 500px;
+	height: 40px;
+	border-collapse: collapse;
+	/*border:2px solid gray;*/
+	background-color: #e0f1ff;
+}
+
+#search input {
+	width: 500px;
+	height: 100%;
+	font-size:20px;
+	border:0px solid ;	
+	background-color: #f0f8ff;
+}
+
+#search input:focus {
+	outline: none;
+}
+
+#search img {
+	padding:5px 10px;
+	width: 30px;
+	height: 30px;
+	cursor:pointer;
+}
+
+/*---------------------------------------*/
+
+#topMenu ul{
+	float:right;
+	margin:19px 10px 0 0;
+	padding:0px;
+	font-size:18px;
+}
+
+#topMenu li {
+	display:inline-block;
+	width:130px;
+	border: 2px solid transparent;
+	border-right: 2px solid lightgray;
+}
+
+#topMenu .lastLi {
+	border-right: 2px solid transparent;
+}
+/*---------------------------------------*/
+
+hr {
+	margin : 20px 0 0 0;
+	border : 1px solid lightgray;
+}
+
+/*---------------------------------------*/
+
+#mainMenu ul {
+	margin:0px;
+	padding:0px;
+	font-size:25px;
+}
+
+#mainMenu li {
+	display:inline-block;
+	height:40px;
+	padding: 0 30px;
+	cursor:pointer;
+}
+
+#mainMenu li:hover {
+	border-radius:30px;
+	background-color:#e0f1ff;
+}
+
+/*---------------------------------------*/
+
+#menuMain {
+	padding: 0px;
+	height:45px;
+	font-size:18px;
+	border-radius:5px;
+	background-color:#f0f8ff;
+}
+
+#menuMain li {
+	margin:5px;
+	display:inline-block;
+	padding:5px 30px;	
+	cursor: pointer;
+}
+
+#menuMain li:hover {
+	border-radius:30px;
+	background-color:#e0f1ff;
+}
+/*---------------------------------------*/
+/*NAV*/
+
+#title {
+	font-size: 35px;
+	text-align:left;
+}
+
+nav {
+	text-align:left;
+}
+
+nav img{
+	margin:10px;
+	width:427.6px;
+}
+
+/*---------------------------------------*/
+/*SECTION*/
+
+section {
+	float:left;
+	display:inline-block;
+	width: 1030px;
+	border: 1px solid lightgray;
+}
+
+section table {
+	width: 1000px;
+	text-align:left;
+	font-size: 18px;
+	border-collapse:collapse;
+}
+
+section td {
+	margin:0px;
+	background-color:#ffffff;
+	border-collapse:collapse;
+	border-bottom: 1px solid lightgray;
+}
+
+section img {
+	width:1000px;
+}
+
+section #secT01 td {
+	padding: 15px 0 15px 15px;
+}
+
+section #secT01 td:first-child{
+	width:15%;
+	background-color: #f5faff;
+}
+
+section #secT02 td{
+	padding: 15px 0 15px 15px;
+	text-align:center;
+}
+
+section #secT02 tr:first-child td{
+	background-color: #f5faff;
+}
+
+section ul {
+	width: 950px;
+	text-align:left;
+	color: #363636;
+}
+
+section p {
+	margin: 10px;
+	padding: 0 0 0 20px;
+	text-align:left;
+	font-size: 28px;
+}
+
+
+
+/*---------------------------------------*/
+/*ASIDE*/
+aside {
+	margin:5px;
+	float:left;
+	display: inline-block;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 300px;
+	border: 1px solid lightgray;
+}
+
+aside table {
+	margin: 10px 0 0 0;
+	width: 250px;
+}
+
+aside #infor td {
+	background-color:#ffffff;
+}
+
+aside #infor td:last-child{
+	width:70%;
+	text-align:right;
+}
+
+aside button {
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+	color:#ffffff;
+	background-color: gray;
+	border: 0px solid;
+}
+
+aside #people td {
+	padding:0px;
+	text-align:left;
+	background-color: #ffffff;
+}
+
+aside #people .select{
+	width:20%;
+	text-align:right;
+}
+
+aside #people select {
+	width: 100px;
+	height: 40px;
+	font-size:18px;
+}
+
+aside #people .price {
+	font-size: 20px;
+	color: red;
+}
+
+aside #totalPrice td {
+	background-color: #ffffff;
+}
+
+aside #totalPrice td:last-child {
+	font-size: 30px;
+	color: red;
+}
+
+
+aside #mainButton {
+	background-color: #0089fa;
+}
+
+/*---------------------------------------*/
+
+footer {
+	border: 2px solid lightgray;
+	clear:both;
+}
+
+footer li {
+	display: inline-block;
+	width: 150px;
+}
